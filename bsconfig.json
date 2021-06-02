@@ -1,0 +1,26 @@
+{
+  "name": "reason-react-examples",
+  "reason": {
+    "react-jsx": 3
+  },
+  "sources": {
+    "dir": "src",
+    "subdirs": true
+  },
+  "bsc-flags": ["-bs-super-errors", "-bs-no-version-header"],
+  "package-specs": [
+    {
+      "module": "es6",
+      "in-source": true
+    }
+  ],
+  "suffix": ".bs.js",
+  "ppx-flags": ["rescript-relay/ppx"],
+  "namespace": true,
+  "bs-dependencies": [
+    "@rescript/react",
+    "rescript-relay",
+    "bs-fetch",
+    "reason-promise"
+  ]
+}

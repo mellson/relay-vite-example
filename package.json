@@ -1,0 +1,48 @@
+{
+  "name": "purple_admin",
+  "version": "3.0.0",
+  "description": "",
+  "scripts": {
+    "start-vite": "run-s relay res build serve",
+    "start-webpack": "run-s relay res webpack",
+    "build": "vite build",
+    "res": "rescript build -with-deps",
+    "relay": "rescript-relay-compiler",
+    "serve": "vite serve --port=9000",
+    "webpack": "webpack-dev-server"
+  },
+  "dependencies": {
+    "@mdi/font": "3.7.95",
+    "@rescript/react": "0.10.3",
+    "@vitejs/plugin-react-refresh": "^1.3.3",
+    "bootstrap": "^4.3.1",
+    "bs-fetch": "^0.6.2",
+    "concurrently": "^5.0.0",
+    "graphql": "^14.5.8",
+    "react": "0.0.0-experimental-4e08fb10c",
+    "react-dom": "0.0.0-experimental-4e08fb10c",
+    "react-relay": "11.0.2",
+    "reason-promise": "^1.1.1",
+    "relay-compiler": "11.0.2",
+    "relay-config": "11.0.2",
+    "relay-runtime": "11.0.2",
+    "rescript-relay": "0.20.0"
+  },
+  "devDependencies": {
+    "html-webpack-plugin": "^3.2.0",
+    "npm-run-all": "^4.1.5",
+    "rescript": "^9.1.3",
+    "vite": "^2.3.6",
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.9",
+    "webpack-dev-server": "^3.9.0"
+  },
+  "author": "bootstrapdash",
+  "url": "http://www.bootstrapdash.com/",
+  "copyright": "",
+  "license": "",
+  "resolutions": {
+    "react": "0.0.0-experimental-4e08fb10c",
+    "react-dom": "0.0.0-experimental-4e08fb10c"
+  }
+}
