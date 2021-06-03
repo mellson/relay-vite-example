@@ -1,6 +1,7 @@
 # Relay Vite Example
 
 This is an example of how the Relay Dev extension works with webpack but not Vite.
+Thanks to Gabriel for the example from his [rescript-relay](https://github.com/zth/rescript-relay/) repo.
 
 ### Run graphql server
 
