@@ -19,7 +19,7 @@
     "bs-fetch": "^0.6.2",
     "concurrently": "^5.0.0",
     "graphql": "^14.5.8",
-    "react": "0.0.0-experimental-4e08fb10c",
+    "react": "0.14.0",
     "react-dom": "0.0.0-experimental-4e08fb10c",
     "react-relay": "11.0.2",
     "reason-promise": "^1.1.1",
@@ -42,7 +42,7 @@
   "copyright": "",
   "license": "",
   "resolutions": {
-    "react": "0.0.0-experimental-4e08fb10c",
+    "react": "0.14.0",
     "react-dom": "0.0.0-experimental-4e08fb10c"
   }
 }
